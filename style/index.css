@@ -1,0 +1,456 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #121216;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1200 px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 60px 45px;
+}
+
+.barra-inicio{
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns: 25% 50% 25%;
+    box-sizing: border-box;
+    justify-items: center;
+    padding: 20px 10px;
+    width: fit-content;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+}  
+
+.logo-inicio{
+    width: 30%;
+    max-width: 160px;
+}
+
+.logo-Deezer{
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+}
+
+.logo-tigo{
+    width: 50px;
+    height: 50px;
+    align-content: center;
+    padding: 20px auto;
+    margin: 10px auto;
+}
+
+.boton-tigo{
+    color: #ffffff;
+    text-decoration: none;
+    border: 1px solid;
+    padding: 14px 20px;
+    border-radius: 10px;
+    font-size: small;
+    align-items: center;
+    justify-content: center;
+}
+
+.boton-login{
+    color: #ffffff;
+    text-decoration: none;
+    border: 2px solid;
+    padding: 14px 18px;
+    border-radius: 30px;
+    font-size: small;
+}
+
+.titulo{
+    width: 50%;
+    margin: 40px auto;
+    padding: 0px 0px;
+    color: #ffffff;
+    text-align: center;
+    font-size: x-large;
+}
+
+.card-uno{
+    background: #6b42b4;
+    background: linear-gradient(57.8deg,#6b42b4 9.75%,#943aab 95.44%);
+    width: 40%;
+    margin: 40px auto;
+    padding: 20px 45px;
+    border-radius: 30px;
+    text-align: center;
+    color: #ffffff;
+    position: center; 
+    box-shadow: -80px -80px 200px 0px rgb(109 19 255/60%), 80px -90px 200px 0px rgb(27 231 255/50%);
+    border: 50% transparent;
+}
+
+.titulo-card{
+    font-size: 30px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.sub-titulo-card{
+    padding: 10px;
+    font-size: x-large;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.parrafo-card{
+    margin: 16px auto;
+    width: 90%;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.segundo-parrafo-card{
+    margin: 16px auto 8px auto;
+    width: 90%;
+}
+
+.boton-card{
+    display: inline-block;
+    background-color: #121216;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 40px;
+    border-radius: 30px;
+}
+.boton-card:hover{
+    background-color: #ffffff;
+    color: #121216;
+}
+
+.mas-info-card{
+    color: #ffffff;
+    opacity: 70%;
+}
+
+.card-dos{
+    background: #dc4c11;
+    background: linear-gradient(53.13deg,#dc4c11 10.71%,#feab2e 95.44%);
+    width: 40%;
+    margin: 40px auto;
+    padding: 20px 45px;
+    border-radius: 30px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.card-tres{
+    background: #202122;
+    background: linear-gradient(180deg,#202122,#3a3b47 55.56%);
+    width: 40%;
+    margin: 40px auto;
+    padding: 20px 45px;
+    border-radius: 30px;
+    text-align: center;
+    color: #ffffff;
+    justify-content: center;
+}
+
+.img-tigo{
+    align-items: center;
+    padding: 0px 10px 10px 10px;
+}
+
+.card-cuatro{
+    background: #b84fdd;
+    background: linear-gradient(69.06deg,#b84fdd -26.76%,#4965f4 44.6%, #2efb74 132.54%);
+    width: 40%;
+    margin: 40px auto;
+    padding: 20px 45px;
+    border-radius: 30px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.card-des-uno{
+    width: 40%;
+    margin: 10px auto;
+    padding: 0px 0px;
+    border: 1px solid;
+    border-radius: 30px;
+    color: #ffffff;
+}
+
+.deslizar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    padding: 0px 0px;
+    margin: auto;
+}
+
+.boton-deslizar{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.parrafo-subcard{
+    margin: 0 auto;
+    text-decoration: none;
+    color: #ffffff;
+    background: #b84fdd;
+    background: linear-gradient(69.06deg,#b84fdd -26.76%,#4965f4 44.6%, #2efb74 132.54%);
+    width: 18%;
+    display: block;
+    margin: 10px 10px;
+    padding: 5px 5px;
+    border-radius: 30px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.tex-img-uno{
+    width: 40%;
+    margin: 40px auto;
+    padding: 20px 45px;
+    border-radius: 30px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.boton-card-text-img{
+    display: inline-block;
+    background-color: #ffffff;
+    text-decoration: none;
+    color: #121216;
+    padding: 10px 40px;
+    border-radius: 30px;
+}
+
+.img-flow{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.flow{
+    width: 100%;
+    display: block;
+    margin: 40px auto;
+}
+
+.tex-img-dos{
+    width: 40%;
+    margin: 40px auto;
+    padding: 20px 45px;
+    border-radius: 30px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.img-sinconexion{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.sin-conexion{
+    width: 100%;
+    display: block;
+    margin: 40px auto;
+}
+
+.tex-img-tres{
+    width: 40%;
+    margin: 40px auto;
+    padding: 20px 45px;
+    border-radius: 30px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.grid-catalogo{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    height: 300px;
+    align-items: start;
+    box-sizing: border-box;
+    justify-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 0 20px;
+    width: fit-content;
+    margin-bottom: 0;
+}
+
+.caja-catalogo{
+    width: 150px 150px;
+    height: 150px;
+    margin: 15px;
+    text-align: center;
+}
+
+.text-caja{
+    margin: 16px 16px;
+    font-size: medium;
+    text-decoration: none;
+    color: #bebec7;
+    display: block;
+}
+
+.single{
+    width: 210px;
+    height: 210px;
+    margin: 10px auto;
+    display: block;
+    border-radius: 3%;
+    align-items: center;
+}
+
+.tex-img-cuatro{
+    width: 40%;
+    margin: 40px auto;
+    padding: 20px 45px;
+    border-radius: 30px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.img-tranfiere{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.transfiere{
+    width: 100%;
+    display: block;
+    margin: 40px auto;
+}
+
+.titulo-faq{
+    padding-bottom: 10px;
+    font-size: xx-large;
+}
+
+.faq{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.subfaq{
+    text-align: left;
+}
+
+.desplegable{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.final{
+    width: 70%;
+    margin: 40px auto;
+    padding: 20px 45px;
+    border-radius: 30px;
+    color: #bebec7;
+    text-align: left;
+    font-size: small;
+}
+.apps-descarga{
+    padding: 40px 40px;
+}
+
+.img-apps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.apps{
+    width: 10%;
+    display: block;
+}
+.contenedor-final{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    align-items: start;
+    box-sizing: border-box;
+    justify-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 0 20px;
+    width: fit-content;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.ul{
+    list-style: none;
+    padding: 0;
+}
+
+.inicio-menu-footer{
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+
+.menu-footer{
+    text-decoration: none;
+    color: #bebec7;
+    padding-bottom: 20px;
+}
+
+.columnas-footer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.barra-final{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.logos-final{
+    width: 20%;
+    max-width: 160px;
+}
+
+.logo-Redes{
+    width: 100%;
+    display: block;
+}
+
+.novedades{
+    width: 50%;
+    margin: 40px auto;
+    padding: 0px 0px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.novedades-text{
+    margin: 10px 10px;
+    font-size: x-large;
+}
+.divisor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div-linea-izq{
+    flex-shrink: 1;
+    height: 2px;
+    width: 100%;
+    background: #ffffff;
+    background: linear-gradient(270deg,currentColor,currentColor 84.88%,rgba(0,0,0,0));
+}
+.div-linea-der{
+    flex-shrink: 1;
+    height: 2px;
+    width: 100%;
+    background: #ffffff;
+    background: linear-gradient(90deg,currentColor,currentColor 84.88%,rgba(0,0,0,0));
+}
